@@ -2,7 +2,7 @@ package collection1;
 
 public class Employee {
 	private String name;
-	private int age;
+	private int ages;
 	private int id;
 	private int salary;
 	private boolean isMale;
@@ -14,10 +14,10 @@ public class Employee {
 	return name;
 }
 	public void setAge(int age) {
-		this.age=age;
+		this.ages=age;
 	}
 	public int getAge() {
-		return age;
+		return ages;
 		
 	}
 	public void setId(int id) {
@@ -42,13 +42,13 @@ public class Employee {
 	}
 	public Employee(String name,int age,int id,int salary,boolean isMale) {
 		this.name=name;
-		this.age=age;
+		this.ages=age;
 		this.id=id;
 		this.salary=salary;
 		this.isMale=isMale;
 	}
 	public String toString() {
-		return name+" "+age+" "+id+" "+ salary+" "+ isMale;
+		return name+" "+ages+" "+id+" "+ salary+" "+ isMale;
 		
 	}
  
